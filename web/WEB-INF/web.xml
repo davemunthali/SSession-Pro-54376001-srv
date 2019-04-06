@@ -4,9 +4,17 @@
         <servlet-name>Setter</servlet-name>
         <servlet-class>main.Setter</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Reader</servlet-name>
+        <servlet-class>main.Reader</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Setter</servlet-name>
         <url-pattern>/Setter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Reader</servlet-name>
+        <url-pattern>/Reader</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
